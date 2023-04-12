@@ -6,10 +6,12 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
+# For numba compatibility
 python = ">=3.8,<3.10"
 omnixai = "1.2.5"
-xgboost = "^1.7.5"
+# Bump down version for compatibility
 shap = "^0.41.0"
+# For numba compatibility
 numpy = "1.23.1"
 
 [build-system]
